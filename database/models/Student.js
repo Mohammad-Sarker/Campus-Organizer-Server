@@ -20,6 +20,14 @@ const Student = db.define("student", {
   email: {
     type: Sequelize.STRING,
     allowNull: false
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING
+  },
+
+  gpa: {
+    type: Sequelize.FLOAT
   }
 });
 
